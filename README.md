@@ -22,13 +22,11 @@ EDS (Elektronik Denetleme Sistemi) koridorlarında ortalama hızından emin olam
 ## Kurulum
 
 1. Projeyi klonlayın: `git clone https://github.com/fkaanc/hiz_asistani.git`
-2. Bağımlılıkları yükleyin: `flutter pub get`
-3. API anahtarını ayarlayın:` dart
-// lib/config/api_keys.dart
-class ApiKeys {
-static const String googleMapsApiKey = 'YOUR_API_KEY';
-}`
-4. `flutter run`
+2. `lib/config/api_keys.example.dart` konumunda olan dosyanın ismini `api_keys.dart` olarak değiştirin
+3. `api_keys.dart` dosyasında `YOUR_API_KEY_HERE` yerine kendi API anahtarınızı ekleyin
+4. `android/app/src/main/AndroidManifest.xml` dosyasında `YOUR_API_KEY_HERE` Google Maps API anahtarınızı ekleyin
+5. Flutter paketlerini yükleyin: `flutter pub get`
+6. Uygulamayı çalıştırın: `flutter run`
 
    
 ## Kullanılan Teknolojiler
