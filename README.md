@@ -16,8 +16,8 @@ EDS (Elektronik Denetleme Sistemi) koridorlarında ortalama hızından emin olam
 2 adet test koridoru, 1 adet gerçek koridor bulunmakta.
 
 - NTAL EDS (10 km/h) _test_
-- Hisarcık EDS (70 km/h) _test_
-- Paşalı EDS (50 km/h) ***gerçek***
+- Paşalı EDS (50 km/h) _test_  
+- Hisarcık EDS (70 km/h) ***gerçek***
 
 ## Kurulum
 
