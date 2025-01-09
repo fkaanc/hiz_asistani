@@ -1,0 +1,25 @@
+# Dart/Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.iml
+
+# Android
+android/local.properties
+android/key.properties
+android/*.jks
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# API Keys ve Gizli Bilgiler
+lib/config/api_keys.dart
+
+# IDE
+.idea/
+.vscode/
