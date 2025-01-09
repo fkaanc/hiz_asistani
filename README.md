@@ -1,16 +1,46 @@
-# hiz_asistani
+# Hız Asistanı
 
-A new Flutter project.
+EDS (Elektronik Denetleme Sistemi) koridorlarında sürücülere yardımcı olmak amacıyla geliştirilmiş bir mobil uygulamadır. GPS tabanlı konum takibi ve Google Maps entegrasyonu kullanarak sürücülerin hız limitlerini aşmalarını önlemeyi amaçlar.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+- 🚗 Anlık hız takibi
+- 🗺️ Google Maps entegrasyonu
+- ⚡ EDS koridorlarında otomatik uyarı sistemi
+- 📊 Geçmiş seyahat kayıtları
+- 🔔 Hız limiti aşım uyarıları
+- 📍 GPS tabanlı konum takibi
+- 📱 Kullanıcı dostu arayüz
 
-A few resources to get you started if this is your first Flutter project:
+## EDS Koridorları
+2 adet test koridoru, 1 adet gerçek koridor bulunmakta.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- NTAL EDS (10 km/h) _test_
+- Hisarcık EDS (70 km/h) _test_
+- Paşalı EDS (50 km/h) ***gerçek***
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kurulum
+
+1. Projeyi klonlayın: `git clone https://github.com/fkaanc/hiz_asistani.git`
+2. Bağımlılıkları yükleyin: `flutter pub get`
+3. API anahtarını ayarlayın:` dart
+// lib/config/api_keys.dart
+class ApiKeys {
+static const String googleMapsApiKey = 'YOUR_API_KEY';
+}`
+4. `flutter run`
+
+   
+## Kullanılan Teknolojiler
+
+- Flutter/Dart
+- Google Maps API
+- Geolocator
+- Dio HTTP Client
+
+## Gereksinimler
+
+- Flutter SDK
+- Android Studio / VS Code
+- Google Maps API Key
+- Android/iOS Emulator veya fiziksel cihaz
