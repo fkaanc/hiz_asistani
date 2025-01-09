@@ -6,7 +6,7 @@ import '../config/api_keys.dart';
 class MapsService {
   final Dio _dio = Dio();
   final String _baseUrl = 'https://maps.googleapis.com/maps/api/directions/json';
-  final String _apiKey = ApiKeys.googleMapsApiKey;
+  final String _apiKey = ApiKeys.googleMapsKey;
 
   // Başlangıç ve bitiş noktaları arası rota oluşturma
   Future<Map<String, dynamic>> getRouteDetails(LatLng start, LatLng end) async {
