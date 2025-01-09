@@ -1,6 +1,6 @@
 # Hız Asistanı
 
-EDS (Elektronik Denetleme Sistemi) koridorlarında sürücülere yardımcı olmak amacıyla geliştirilmiş bir mobil uygulamadır. GPS tabanlı konum takibi ve Google Maps entegrasyonu kullanarak sürücülerin hız limitlerini aşmalarını önlemeyi amaçlar.
+EDS (Elektronik Denetleme Sistemi) koridorlarında ortalama hızından emin olamayan sürücülere yardımcı olmak amacıyla geliştirilmiş bir mobil uygulamadır. GPS tabanlı konum takibi ve Google Maps entegrasyonu kullanarak sürücülerin hız limitlerini aşmalarını önlemeyi amaçlar.
 
 ## Özellikler
 
