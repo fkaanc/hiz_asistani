@@ -2,6 +2,8 @@
 
 EDS (Elektronik Denetleme Sistemi) koridorlarında ortalama hızından emin olamayan sürücülere yardımcı olmak amacıyla geliştirilmiş bir mobil uygulamadır. GPS tabanlı konum takibi ve Google Maps entegrasyonu kullanarak sürücülerin hız limitlerini aşmalarını önlemeyi amaçlar.
 
+![Image](https://github.com/user-attachments/assets/d98d2c68-e344-41e4-9c63-7905995265ab)
+
 ## Özellikler
 
 - 🚗 Anlık hız takibi
@@ -12,12 +14,20 @@ EDS (Elektronik Denetleme Sistemi) koridorlarında ortalama hızından emin olam
 - 📍 GPS tabanlı konum takibi
 - 📱 Kullanıcı dostu arayüz
 
+![Image](https://github.com/user-attachments/assets/eb7c7497-6316-4a36-8a26-dbc4b4b3c777)
+
 ## EDS Koridorları
 2 adet test koridoru, 1 adet gerçek koridor bulunmakta.
 
 - NTAL EDS (10 km/h) _test_
 - Paşalı EDS (50 km/h) _test_  
 - Hisarcık EDS (70 km/h) ***gerçek***
+
+![Image](https://github.com/user-attachments/assets/bca0e487-aadb-42eb-bdc4-4284acf89248)
+
+![Image](https://github.com/user-attachments/assets/2342559a-db7d-4e79-9919-99e341c6df1f)
+
+![Image](https://github.com/user-attachments/assets/961595ff-c029-43e6-b864-15f629d11149)
 
 ## Kurulum
 
@@ -42,3 +52,9 @@ EDS (Elektronik Denetleme Sistemi) koridorlarında ortalama hızından emin olam
 - Android Studio / VS Code
 - Google Maps API Key
 - Android/iOS Emulator veya fiziksel cihaz
+
+
+
+
+
+
